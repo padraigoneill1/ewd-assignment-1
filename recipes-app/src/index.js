@@ -28,7 +28,7 @@ const Router = props => {
    return ( 
     <BrowserRouter>
      <div>
-                <Header/>
+        <Header/>
         <div className="jumbotron">
             <Switch>
                 <Route path='/recipes/:id' component={ RecipeDetail } />
@@ -39,7 +39,7 @@ const Router = props => {
             </Switch>
         </div>
         <Footer />
-              </div>
+    </div>
     </BrowserRouter>
 );
 };
