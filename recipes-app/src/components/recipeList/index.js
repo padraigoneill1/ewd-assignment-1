@@ -8,7 +8,9 @@ const RecipeList = (
   },
 ) => {
   let displayedRecipes =  recipes.map( 
-      (recipe) => <Recipe key={recipe.id} recipe={recipe } />
+      (recipe) => <Recipe key={recipe.id} recipe={recipe }
+      //  upvoteHandler={this.props.upvoteHandler} 
+        />
    ) ; 
   return (
     <div className="col-md-10">
