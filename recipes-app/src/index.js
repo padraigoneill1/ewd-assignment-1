@@ -64,8 +64,8 @@ import Footer from './components/footer'
           <p>You must log in to view saved recipes </p>
 
         <form>
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login"/>
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password"/>
+            <input type="text" id="login"  name="login" placeholder="login"/>
+            <input type="text" id="password"  name="login" placeholder="password"/>
         </form>
           <button onClick={this.login}>Log in</button>
         </div>
