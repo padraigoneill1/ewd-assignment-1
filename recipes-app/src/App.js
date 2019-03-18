@@ -2,7 +2,6 @@ import React , { Component } from 'react';
 import Recipes from  './Data';
 import RecipeList from './components/recipeList'
 import SelectControls  from './components/selectControls' ;
-import Header from './components/header'
 import _ from 'lodash';
 
 class App extends Component {
