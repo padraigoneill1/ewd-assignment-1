@@ -30,7 +30,7 @@ class App extends Component {
                     filterText={this.state.search} 
                     sort={this.state.sort} />
                 <RecipeList recipes={filteredList}
-                     upvoteHandler={this.incrementUpvote} />
+                     upvoteHandler={this.incrementUpvote} 
                  />
             </div> 
         );

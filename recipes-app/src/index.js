@@ -33,7 +33,6 @@ const Router = props => {
             <Switch>
                 <Route path='/recipes/:id' component={ RecipeDetail } />
                 <Route exact path='/' component={ App } />
-                
                 <Route path='/contact' component={ Contact } />
                 <Route path='/about' component={ About } />
                 <Redirect from='*' to='/' />

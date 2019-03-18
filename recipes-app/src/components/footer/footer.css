@@ -3,11 +3,11 @@ footer {
     margin-top: 45px;
     padding-top: 5px;
     border-top: 1px solid #eaeaea;
-    color: #777;
+    color: rgb(0, 0, 0);
   }
   
   footer a {
-    color: #555;
+    color: rgb(0, 0, 0);
   }
   
   footer a:hover {
@@ -21,9 +21,11 @@ footer {
   footer ul {
     float: right;
     list-style: none;
+    margin-right: 130px;
   }
   
   footer ul li {
     float: left;
     margin-left: 15px;
   }
+

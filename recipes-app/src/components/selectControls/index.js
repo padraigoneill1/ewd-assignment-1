@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './selectControls.css'
 
  export default class SelectControls extends Component {
     handleChange = (e, type, value) => {

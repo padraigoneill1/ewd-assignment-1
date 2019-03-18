@@ -29,7 +29,7 @@ class RecipeDetail extends Component {
         return (
             <div className="container-fluid">
               <div className="row">
-                  <div className="col-md-10">
+                  <div className="col-md-7">
                       {display}
                   </div>
               </div>

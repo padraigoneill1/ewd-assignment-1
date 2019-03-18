@@ -22,6 +22,8 @@
     
     "description": "A delicious Italian breaded chicken smothered with cheese and tomato-based pasta sauce!", 
 
+    "upvotes": 10, 
+
     "id": "tomato-chicken-parmesan", 
     "images": [
         "img/recipes/tomato-chicken-parmesan.0.jpg", 

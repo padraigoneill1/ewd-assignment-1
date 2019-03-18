@@ -34,7 +34,12 @@ export default  ({recipe}) => {
                           {directions}
                   </dl>
               </li>
-              
+              <li>
+                  <span>Upvotes </span>
+                  <dl>
+                  <span className="glyphicon glyphicon-thumbs-up ptr" >{recipe.upvotes}</span> 
+                  </dl>
+              </li>
               </ul>            
             </div>
         )

@@ -3,7 +3,7 @@
     float: left;
     margin-right: 10px;
     font-size: 1.7em;
-    color: #fff;
+    color: rgb(7, 0, 0);
     text-transform: uppercase;
     letter-spacing: -1px;
     padding-top: 9px;
@@ -11,7 +11,15 @@
   }
   
   #logo:hover {
-    color: #fff;
+    color: rgb(124, 14, 14);
     text-decoration: none;
   }
-  
+
+  .navbar-inverse {
+    background-color: #df8c20;
+    border-color: #080808;
+    color:#080808;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #000000;
+}
