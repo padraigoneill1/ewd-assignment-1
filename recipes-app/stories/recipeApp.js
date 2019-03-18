@@ -8,7 +8,7 @@ import RecipeList from '../src/components/recipeList';
 import { action } from '@storybook/addon-actions';
 import Images from '../src/components/recipeDetail/images';
 import { MemoryRouter, Route } from 'react-router'
-import Specification from '../src/components/recipeDetail/specification'
+import Details from '../src/components/recipeDetail/details'
 
 
 const recipe = 
@@ -81,8 +81,8 @@ storiesOf('Recipe List', module)
         .add('Images', 
         () =>  <Images recipe={recipe} />
         ) 
-        .add('Specification', 
-        () =>  <Specification recipe={recipe} />
+        .add('Details', 
+        () =>  <Details recipe={recipe} />
         )
         .addDecorator(story => 
                 <MemoryRouter initialEntries={['/']}>{story()}</MemoryRouter>

@@ -6,16 +6,7 @@ import React , { Component } from 'react';
 
   export default class Recipe extends Component {
     handleVote = () =>  this.props.upvoteHandler(this.props.recipe.id);
-
-    // constructor(){
-    //      
-    //        let { id, imageUrl, name, snippet } = props.recipe
-    //         const fullImageURL = `recipeDetails/${imageUrl}`
-    //        let    path = `/recipes/${id}`
-    //         let upvotes = props.recipe.upvotes
-    // }
-
-          render(){
+    render(){
           
           return (
               <li className="thumbnail recipe_item">
@@ -32,6 +23,5 @@ import React , { Component } from 'react';
               </li>
               
           ) ;
-  }
-
-  }
+    }
+}

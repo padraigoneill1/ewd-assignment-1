@@ -4,11 +4,6 @@ import './recipeList.css'
 
 
 export default class RecipeList extends Component {
-// const RecipeList = (
-//   {
-//     recipes,
-//   },
-// ) => {
 
   render() {
   let displayedRecipes =  this.props.recipes.map( 
@@ -24,6 +19,4 @@ export default class RecipeList extends Component {
     </div>
   ) ;
   }
-
-
 }

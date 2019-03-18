@@ -27,20 +27,20 @@ ul.recipe-thumbs img {
     padding: 1em;
 }
 
-ul.specs {
+ul.details {
     clear: both;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-ul.specs > li{
+ul.details > li{
     display: inline-block;
     width: 200px;
     vertical-align: top;
 }
 
-ul.specs > li > span{
+ul.details > li > span{
     font-weight: bold;
     font-size: 1.2em;
 }

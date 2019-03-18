@@ -10,7 +10,7 @@ export default  ({recipe}) => {
     ) 
     return (
       <div>
-          <ul className="specs">
+          <ul className="details">
               <li >
                   <span>Ingredients</span>
                   <dl>

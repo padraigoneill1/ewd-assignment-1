@@ -34,21 +34,6 @@ class StubAPI {
         return this.recipes ;
     }
 
-    add(title, link) {
-        let id = 1 ;
-        let last = _.last(this.recipes) ;
-        if (last) {
-            id = last.id + 1 ;
-        }
-        let len = this.recipes.length ;
-        let newLen = this.recipes.push({ 
-            id, title, link, 
-            username: '', 
-            comments: [], 
-            upvotes: 0 }) ;
-        return newLen > len ;
-    }
-
     upvote(id) {
         let index = _.findIndex(this.recipes, 
             (recipe) => recipe.id === id
@@ -70,26 +55,44 @@ class StubAPI {
         return result;
     }
 
-    addComment(recipeId,c,n) {
-        let recipe = this.getRecipe(recipeId ) ;
-        let id = 1 ;
-        let last = _.last(recipe.comments) ;
-        if (last) {
-            id = last.id + 1 ;
-        }
-        recipe.comments.push({ 'id': id,  
-            comment: c , author: n, upvotes: 0 } ) ;
-    }
 
-    upvoteComment(recipeId,commentId) {
-        let recipe = this.getRecipe(recipeId ) ;
-        let index = _.findIndex(recipe.comments, 
-            (c) => c.id === commentId
-        );  
-        if (index !== -1) {                 
-            recipe.comments[index].upvotes += 1 ;
-        }
-    }
+    //Not Yet Implemented
+
+    // add(title, link) {
+    //     let id = 1 ;
+    //     let last = _.last(this.recipes) ;
+    //     if (last) {
+    //         id = last.id + 1 ;
+    //     }
+    //     let len = this.recipes.length ;
+    //     let newLen = this.recipes.push({ 
+    //         id, title, link, 
+    //         username: '', 
+    //         comments: [], 
+    //         upvotes: 0 }) ;
+    //     return newLen > len ;
+    // }
+
+    // addComment(recipeId,c,n) {
+    //     let recipe = this.getRecipe(recipeId ) ;
+    //     let id = 1 ;
+    //     let last = _.last(recipe.comments) ;
+    //     if (last) {
+    //         id = last.id + 1 ;
+    //     }
+    //     recipe.comments.push({ 'id': id,  
+    //         comment: c , author: n, upvotes: 0 } ) ;
+    // }
+
+    // upvoteComment(recipeId,commentId) {
+    //     let recipe = this.getRecipe(recipeId ) ;
+    //     let index = _.findIndex(recipe.comments, 
+    //         (c) => c.id === commentId
+    //     );  
+    //     if (index !== -1) {                 
+    //         recipe.comments[index].upvotes += 1 ;
+    //     }
+    // }
 }
 
 export default (new StubAPI() );

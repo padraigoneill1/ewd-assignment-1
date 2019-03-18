@@ -1,5 +1,4 @@
 import React , { Component } from 'react';
-// import Recipes from  './Data';
 import RecipeList from './components/recipeList'
 import SelectControls  from './components/selectControls' ;
 import api from './dataStore/stubAPI';
@@ -14,15 +13,10 @@ class App extends Component {
     };
     incrementUpvote = (id) => {
         api.upvote(id) ;
-        console.log('TEST UPVOTE')
         this.setState({});
     };
 
     render() {
-        // let list = Recipes.filter( 
-        //     (r) => 
-        //     r.name.toLowerCase().search(this.state.search.toLowerCase()) !== -1 
-        // );
 
         let recipes = _.sortBy(api.getAll()).filter(
             (r) => 

@@ -6,8 +6,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import RecipeDetail from './components/recipeDetail'
 import Header from './components/header'
 import Footer from './components/footer'
-//import Register from './components/register'
-
 
 class About extends Component { 
     render() {  

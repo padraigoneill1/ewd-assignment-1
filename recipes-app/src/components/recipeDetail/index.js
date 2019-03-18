@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { withRouter } from 'react-router-dom';
 import localCache from '../../../src/localCache';
 import request from 'superagent' ; 
-import Specification from './specification'
+import Details from './details'
 import ImagesSection from './images'
 
 class RecipeDetail extends Component {
@@ -23,7 +23,7 @@ class RecipeDetail extends Component {
             display =  
             <div>
                 <ImagesSection recipe={recipe} />  
-                <Specification recipe={recipe} /> 
+                <Details recipe={recipe} /> 
             </div> 
         }
         return (
