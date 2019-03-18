@@ -2,7 +2,6 @@
 let Allrecipes = [ 
     {
         'age': 0, 
-        'carrier': '', 
         'id': 'tomato-chicken-parmesan', 
         'imageUrl': 'img/recipes/tomato-chicken-parmesan.0.jpg', 
         'name': 'Tomato Chicken-Parmesan', 
@@ -10,7 +9,6 @@ let Allrecipes = [
     },
     {
         'age': 1, 
-        'carrier': '', 
         'id': 'filet-mignon-with-rich-balsamic-glaze', 
         'imageUrl': 'img/recipes/filet-mignon-with-rich-balsamic-glaze.0.jpg', 
         'name': 'Filet Mignon with Rich Balsamic Glaze', 
@@ -18,7 +16,6 @@ let Allrecipes = [
     },
     {
         'age': 2, 
-        'carrier': '', 
         'id': 'breaded-chicken-fingers', 
         'imageUrl': 'img/recipes/breaded-chicken-fingers.0.jpg', 
         'name': 'Breaded Chicken Fingers', 

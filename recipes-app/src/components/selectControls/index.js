@@ -21,8 +21,10 @@ import React, { Component } from 'react';
                 <span> Sort by: </span>
                 <select id="sort" value={this.props.order } 
                     onChange={this.handleSortChange} >
+                    <option value="upvotes">Most Popular</option>
                     <option value="name">Alphabetical</option>
                     <option value="age">Newest</option>
+                    
                 </select>
             </div>
         );

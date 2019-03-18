@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import Recipe from '../recipe'
 import './recipeList.css'
 
-const RecipeList = (
-  {
-    recipes,
-  },
-) => {
-  let displayedRecipes =  recipes.map( 
+
+export default class RecipeList extends Component {
+// const RecipeList = (
+//   {
+//     recipes,
+//   },
+// ) => {
+
+  render() {
+  let displayedRecipes =  this.props.recipes.map( 
       (recipe) => <Recipe key={recipe.id} recipe={recipe }
-      //  upvoteHandler={this.props.upvoteHandler} 
+        upvoteHandler={this.props.upvoteHandler} 
         />
    ) ; 
   return (
@@ -19,6 +23,7 @@ const RecipeList = (
       </ul>
     </div>
   ) ;
-};
+  }
 
-export default RecipeList
+
+}
