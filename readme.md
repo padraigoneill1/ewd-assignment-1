@@ -20,7 +20,28 @@ Diagram of app's data model (see example below) AND/OR a sample of the test data
 
 Example Json Test Data
 
-![][testdata]
+{
+    "ingredients":  [
+        "2 (4 ounce) filet mignon steaks",  
+    ], 
+    "time": {
+        "readyTime": "20m"
+    }, 
+    
+    "directions": [
+        "Sprinkle freshly ground pepper over both sides of each steak, and sprinkle with salt to taste."
+    ], 
+    "upvotes": 4, 
+    
+    "description": "This is an elegant and quick romantic dinner for two. Wonderful served with steamed asparagus and baby red potatoes.", 
+
+    "id": "filet-mignon-with-rich-balsamic-glaze", 
+    "images": [
+        "img/recipes/filet-mignon-with-rich-balsamic-glaze.0.jpg"
+    ], 
+    "name": "Filet Mignon with Rich Balsamic Glaze"
+}
+
 
 Model
 
