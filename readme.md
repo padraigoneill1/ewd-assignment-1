@@ -19,9 +19,11 @@ This shouldn't require additonal installation instructions apart from running np
 Diagram of app's data model (see example below) AND/OR a sample of the test data used (JSON or equivalent).
 
 Example Json Test Data
+
 ![][testdata]
 
 Model
+
 ![][model]
 
 ## App Component Design.
@@ -31,6 +33,7 @@ Model
 ## UI Design.
 
 ![][image1]
+
 ![][image2]
 
 ## Routing.
