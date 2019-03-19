@@ -52,7 +52,7 @@ Psuedo authentication for Saved Recipes page
 ## Independent learning.
 General Javascript/React/HTML
 
-[model]: ./data.jpg
+[model]: ./data.png
 [image1]: ./screen.png
 [image2]: ./screen2.png
 [stories]: ./storybook.png
