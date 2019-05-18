@@ -44,7 +44,7 @@ const recipe =
     
         "id": "breaded-chicken-fingers", 
         "images": [
-            "img/recipes/breaded-chicken-fingers.0.jpg", 
+            "../../public/recipes/img/recipes/breaded-chicken-fingers.0.jpg", 
             "img/recipes/breaded-chicken-fingers.1.jpg", 
             "img/recipes/breaded-chicken-fingers.2.jpg",
             "img/recipes/breaded-chicken-fingers.4.jpg", 
