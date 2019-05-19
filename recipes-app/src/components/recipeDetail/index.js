@@ -7,10 +7,11 @@ import ImagesSection from './images'
 
 class RecipeDetail extends Component {
     componentDidMount() {
-        const url = `/recipeDetails/recipes/${this.props.match.params.id}.json`
+        const url = `/api/recipes/${this.props.match.params.id}`
         request.get( url, 
             (err, res) => {
               let json = JSON.parse(res.text);
+              console.log(json)
               localCache.setRecipe(json);
               this.setState({});
             }) ;

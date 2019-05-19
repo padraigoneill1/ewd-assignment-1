@@ -88,7 +88,7 @@ import Footer from './components/footer'
         }
       }
   
-  const AuthButtonwithRouter = withRouter(AuthButton )
+  // const AuthButtonwithRouter = withRouter(AuthButton )
 
   class Saved extends Component {
     render() { 

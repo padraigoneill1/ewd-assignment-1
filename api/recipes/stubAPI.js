@@ -28,32 +28,97 @@ import _ from 'lodash';
           "img/recipes/breaded-chicken-fingers.4.jpg", 
           "img/recipes/breaded-chicken-fingers.5.jpg"
           ], 
-          name: "Breaded Chicken Fingers"
+
+          time: {
+            "prepTime": "20m", 
+            "cookTime": "10m", 
+            "readyTime": "2h 30m"
+        }, 
+          name: "Breaded Chicken Fingers",
+
+          snippet: 'If you like the taste of garlic, this recipe is for you. It is easy to make, but requires time to marinate',
+          imageUrl: 'img/recipes/breaded-chicken-fingers.0.jpg'
+
+
           },
+        
          {
-            id: 2,
-            title: 'The button that is not.',
-            link: 'http://blog.nuclearsecrecy.com/2014/12/15/button-isnt/',
-            username: 'notme',
-            comments: [],
-            upvotes: 12,
+          id: 2,
+          ingredients:  [
+            "2 (4 ounce) filet mignon steaks",
+            "1/2 teaspoon freshly ground black pepper to taste",
+            "salt to taste",
+            "1/4 cup balsamic vinegar",
+            "1/4 cup dry red wine"
+            
+        ], 
+        time: {
+            "prepTime": "5m", 
+            "cookTime": "15m", 
+            "readyTime": "20m"
+        }, 
+        
+        directions: [
+            "Sprinkle freshly ground pepper over both sides of each steak, and sprinkle with salt to taste.",
+            "Heat a nonstick skillet over medium-high heat. Place steaks in hot pan, and cook for 1 minute on each side, or until browned. Reduce heat to medium-low, and add balsamic vinegar and red wine. Cover, and cook for 4 minutes on each side, basting with sauce when you turn the meat over.",
+            "Remove steaks to two warmed plates, spoon one tablespoon of glaze over each, and serve immediately."
+        ], 
+        upvotes: 4, 
+        
+        description: "This is an elegant and quick romantic dinner for two. Wonderful served with steamed asparagus and baby red potatoes.", 
+      
+        images: [
+            "img/recipes/filet-mignon-with-rich-balsamic-glaze.0.jpg", 
+            "img/recipes/filet-mignon-with-rich-balsamic-glaze.1.jpg", 
+            "img/recipes/filet-mignon-with-rich-balsamic-glaze.2.jpg"
+        ], 
+        name: "Filet Mignon with Rich Balsamic Glaze",
+        snippet: 'This is an elegant and quick romantic dinner for two. Wonderful served with steamed asparagus and baby red potatoes.',
+        imageUrl: 'img/recipes/filet-mignon-with-rich-balsamic-glaze.0.jpg' 
+
+            
           },
           {
+
             id: 3,
-            title: 'Google Nears $1B Investment in SpaceX',
-            link: null,
-            username: 'notme',
-            comments: [],
-            upvotes: 12,
+            ingredients:  [
+              "2 eggs beaten",
+              "1 cup grated Parmesan cheese",
+              "7 ounces seasoned bread crumbs",
+              "6 skinless, boneless chicken breast halves",
+              "1 tablespoon vegetable oil",
+              "12 ounces pasta sauce"
+          ], 
+          time: {
+              "prepTime": "15m", 
+              "cookTime": "30m", 
+              "readyTime": "45m"
+          }, 
+          
+          directions: [
+              "Preheat oven to 375 degrees F (190 degrees C).",
+              "Pour beaten eggs into a shallow dish or bowl. In another shallow dish or bowl, mix together the grated Parmesan cheese and bread crumbs. Dip chicken breasts into beaten egg, then into bread crumb mixture to coat.",
+              "In a large skillet, heat oil over medium high heat. Add coated chicken and saute for about 8 to 10 minutes each side, or until chicken is cooked through and juices run clear.",
+              "Pour tomato sauce into a lightly greased 9x13 inch baking dish. Add chicken, then place a slice of Monterey Jack cheese over each breast, and bake in the preheated oven for 20 minutes or until cheese is completely melted."
+          ], 
+          
+          description: "A delicious Italian breaded chicken smothered with cheese and tomato-based pasta sauce!", 
+        
+          upvotes: 10, 
+
+          images: [
+              "img/recipes/tomato-chicken-parmesan.0.jpg", 
+              "img/recipes/tomato-chicken-parmesan.1.jpg", 
+              "img/recipes/tomato-chicken-parmesan.2.jpg", 
+              "img/recipes/tomato-chicken-parmesan.3.jpg"
+          ], 
+          name: "Tomato Chicken Parmesan",
+
+          snippet: 'A delicious Italian breaded chicken smothered with cheese and tomato-based pasta sauce!',
+          imageUrl: 'img/recipes/tomato-chicken-parmesan.0.jpg'
           },
-          {
-            id: 4,
-            title: 'Coinbase Raises $75M from DFJ Growth, USAA, and More',
-            link: 'http://blog.coinbase.com/post/108642362357/coinbase-raises-75m-from-dfj-growth-usaa-nyse',
-            username: 'psmith',
-            comments: [],
-            upvotes: 2,
-          },
+          
+
       ];
 
 
@@ -133,111 +198,7 @@ import _ from 'lodash';
 
 
 
-
-// import _ from 'lodash';
-
-//   const posts = [
-//          {id: 1,
-//             title: 'India - Tiger population sees 30% increase.',
-//             link: 'http://www.bbc.com/news/world-asia-30896028',
-//             username: 'jbloggs',
-//             comments: [],
-//             upvotes: 10,
-//           },
-//          {
-//             id: 2,
-//             title: 'The button that is not.',
-//             link: 'http://blog.nuclearsecrecy.com/2014/12/15/button-isnt/',
-//             username: 'notme',
-//             comments: [],
-//             upvotes: 12,
-//           },
-//           {
-//             id: 3,
-//             title: 'Google Nears $1B Investment in SpaceX',
-//             link: null,
-//             username: 'notme',
-//             comments: [],
-//             upvotes: 12,
-//           },
-//           {
-//             id: 4,
-//             title: 'Coinbase Raises $75M from DFJ Growth, USAA, and More',
-//             link: 'http://blog.coinbase.com/post/108642362357/coinbase-raises-75m-from-dfj-growth-usaa-nyse',
-//             username: 'psmith',
-//             comments: [],
-//             upvotes: 2,
-//           },
-//       ];
+   
 
 
-//      const stubAPI = {
-//          getAll: () => {
-//             return posts;
-//           },
-//          add: (t, l) => {
-//               if (!(t && l)) return false;
-//               let id = 1;
-//               const last = _.last(posts);
-//               if (last) {
-//                  id = last.id + 1;
-//               }
-//               let len = posts.length;
-//               let newLen = posts.push({
-//                   'id': id,
-//                  'title': t, 'link': l, 'username': '', 'comments': [], 'upvotes': 0});
-//                return newLen > len?id:-1;
-//               },
-//          upvote: (id) => {
-//              const index = _.findIndex(posts,
-//                    (post) => {
-//                     return post.id == id;
-//                   } );
-//              if (index !== -1) {
-//                   posts[index].upvotes += 1;
-//                   return true;
-//                 }
-//               return false;
-//            },
-//          getPost: (id) => {
-//             let result = null;
-//             const index = _.findIndex(posts,
-//                    (post) => {
-//                     return post.id == id;
-//                   } );
-//              if (index !== -1) {
-//                 result = posts[index];
-//                     }
-//             return result;
-//             },
-//          addComment: (postId, c, n) => {
-//             let result = false;
-//             const post = stubAPI.getPost(postId);
-//             let id = 1;
-//             if (post) {
-//             const last = _.last(post.comments);
-//             if (last) {
-//                id = last.id + 1;
-//             }
-//             post.comments.push({'id': id,
-//                      'comment': c, 'author': n, 'upvotes': 0} );
-//             result = true;
-//             }
-//           return result;
-//             },
-//          upvoteComment: (postId, commentId) => {
-//             let result = false;
-//             const post = stubAPI.getPost(postId);
-//             if (post) {
-//             const index = _.findIndex(post.comments, (c) => {
-//                       return c.id == commentId;
-//                     });
-//              if (index !== -1) {
-//                  post.comments[index].upvotes += 1;
-//                  result = true;
-//                 }
-//               }
-//             return result;
-//           },
-//       };
-//     export default stubAPI;
+    
