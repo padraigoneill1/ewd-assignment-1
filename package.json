@@ -1,0 +1,30 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "assignment 2",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padraigoneill1/ewd-assignment-1.git"
+  },
+  "author": "poneill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padraigoneill1/ewd-assignment-1/issues"
+  },
+  "homepage": "https://github.com/padraigoneill1/ewd-assignment-1#readme"
+}
