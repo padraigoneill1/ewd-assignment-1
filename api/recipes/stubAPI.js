@@ -121,7 +121,6 @@ import _ from 'lodash';
 
       ];
 
-
      const stubAPI = {
          getAll: () => {
             return recipes;
@@ -135,8 +134,7 @@ import _ from 'lodash';
         //       }
         //       let len = recipes.length;
         //       let newLen = recipes.push({
-        //           'id': id,
-        //          'title': t, 'link': l, 'username': '', 'comments': [], 'upvotes': 0});
+        //          TODO
         //        return newLen > len?id:-1;
         //       },
           upvote: (id) => {
@@ -163,35 +161,7 @@ import _ from 'lodash';
                     }
             return result;
             },
-        //  addComment: (recipeId, c, n) => {
-        //     let result = false;
-        //     const recipe = stubAPI.getRecipe(recipeId);
-        //     let id = 1;
-        //     if (recipe) {
-        //     const last = _.last(recipe.comments);
-        //     if (last) {
-        //        id = last.id + 1;
-        //     }
-        //     recipe.comments.push({'id': id,
-        //              'comment': c, 'author': n, 'upvotes': 0} );
-        //     result = true;
-        //     }
-        //   return result;
-        //     },
-        //  upvoteComment: (recipeId, commentId) => {
-        //     let result = false;
-        //     const recipe = stubAPI.getRecipe(recipeId);
-        //     if (recipe) {
-        //     const index = _.findIndex(recipe.comments, (c) => {
-        //               return c.id == commentId;
-        //             });
-        //      if (index !== -1) {
-        //          recipe.comments[index].upvotes += 1;
-        //          result = true;
-        //         }
-        //       }
-        //     return result;
-        //   },
+
       };
     export default stubAPI;
 

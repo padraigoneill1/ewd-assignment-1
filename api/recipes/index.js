@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
   res.send({recipes: recipes});
 });
 
-// Add a recipe
+// Add a recipe (Not Tested)
 router.post('/', (req, res) => {
     const newRecipe = req.body;
 
